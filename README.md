@@ -1,2 +1,7 @@
-# Time-converter
-Quickly convert seconds, minutes, hours, days, months, and years – for example, find out how many seconds are in a year or how many days are in a month.
+## 🔒 License & Permissions
+
+[READ](https://github.com/Kotok7/Time-converter/blob/main/LICENSE)
+
+> **Note**: By interacting with this repository, you agree to respect these restrictions.
+
+---
