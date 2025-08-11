@@ -18,6 +18,7 @@ $translations = [
         'unit_day'      => 'Dni',
         'unit_month'    => 'Miesięcy',
         'unit_year'     => 'Lat',
+        'back'          => 'Wróć do strony głównej',
     ],
     'en' => [
         'title'         => 'Time Converter',
@@ -35,6 +36,7 @@ $translations = [
         'unit_day'      => 'Days',
         'unit_month'    => 'Months',
         'unit_year'     => 'Years',
+        'back'          => 'Back to main page',
     ],
 ];
 
@@ -57,6 +59,13 @@ $T = $translations[$lang];
 <body>
 
 <div class="card">
+                  <button onclick="window.location.href='/index.php'" class="back-button">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m12 19-7-7 7-7"/>
+    <path d="M19 12H5"/>
+  </svg>
+<?= htmlspecialchars($T['back']) ?>
+</button>
   <div class="header">
     <h1 id="pageTitle"><?= htmlspecialchars($T['title']) ?></h1>
     <button id="toggleLang"><?= htmlspecialchars($T['toggle_lang']) ?></button>
