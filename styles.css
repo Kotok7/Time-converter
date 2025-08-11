@@ -8,6 +8,34 @@
   --spacing: 1rem;
   --trans: 0.3s;
 }
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background: #1e40af;
+  transform: translateX(-3px);
+}
+
+.back-button:active {
+  transform: translateX(-1px);
+}
+
+.back-button svg {
+  transition: transform 0.2s ease;
+}
 * {
   box-sizing: border-box;
 }
